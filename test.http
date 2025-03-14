@@ -1,0 +1,10 @@
+//GET http://localhost:8080/ping
+
+
+POST http://localhost:8080/notes
+content-type: application/json
+
+{
+    "title": "first note",
+    "content": "I am here"
+}
